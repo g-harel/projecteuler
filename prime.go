@@ -1,11 +1,11 @@
 package projecteuler
 
-// Prime computes if the input is prime
+// Prime computes if the input is prime.
 func Prime(n int) bool {
 	return Primes(n)[n]
 }
 
-// Primes computes the primality of all numbers until n
+// Primes computes the primality of all numbers until n and counts them.
 func Primes(n int) []bool {
 	if n < 0 {
 		panic("number is negative")

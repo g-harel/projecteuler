@@ -1,6 +1,6 @@
 package projecteuler
 
-// LCM computes the lowest common multiple
+// LCM computes the lowest common multiple.
 func LCM(list ...int) int {
 	if len(list) < 2 {
 		panic("list is too short")

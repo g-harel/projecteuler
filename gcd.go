@@ -1,6 +1,6 @@
 package projecteuler
 
-// GCD computes the greates common divisor
+// GCD computes the greates common divisor.
 func GCD(list ...int) int {
 	if len(list) < 2 {
 		panic("list is too short")
