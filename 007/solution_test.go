@@ -20,6 +20,7 @@ func TestSolution(t *testing.T) {
 		{191, 1153},
 		{757, 5749},
 		{10001, 104743},
+		{291627, 4128581},
 	}
 
 	t.Run("should compute the correct value for all cases", func(t *testing.T) {
