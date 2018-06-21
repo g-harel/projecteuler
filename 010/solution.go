@@ -1,4 +1,4 @@
-package e001
+package e010
 
 import "github.com/g-harel/projecteuler"
 

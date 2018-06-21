@@ -19,6 +19,9 @@ func Primes(n int) []bool {
 	if n < 0 {
 		panic("number is negative")
 	}
+	if n == 0 {
+		return []bool{false}
+	}
 
 	// create a slice to contain all values
 	sieve := make([]bool, n+1)
