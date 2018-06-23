@@ -15,12 +15,15 @@ func TestSolution(t *testing.T) {
 
 	var cases = []Case{
 		{2, 6},
-		{20, 1},
+		{7, 3432},
+		{16, 601080390},
+		{20, 137846528820},
+		{33, 7219428434016265740},
 	}
 
 	t.Run("should compute the correct value for all cases", func(t *testing.T) {
 		for _, c := range cases {
-			assert.Equal(t, c.result, solution(c.input), strconv.Itoa(c.input))
+			assert.Equal(t, int64(c.result), solution(c.input), strconv.Itoa(c.input))
 		}
 	})
 }
